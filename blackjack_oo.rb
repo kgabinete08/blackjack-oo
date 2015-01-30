@@ -162,7 +162,7 @@ class Game
         has_winner = winner?(dealer_total, "#{@dealer.name}")
       end
 
-      #Compare hands
+      # Compare hands
       if !has_winner
         player_total = @player.calculate_hand
         dealer_total = @dealer.calculate_hand
